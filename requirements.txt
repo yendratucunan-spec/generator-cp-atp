@@ -1,0 +1,7 @@
+streamlit
+    python-docx
+    ```
+    *(Pastikan tidak ada salah ketik atau huruf besar).*
+  
+  
+    Klik tombol **"Commit changes..."** di pojok kanan atas, lalu klik **"Commit changes"** lagi untuk menyimpan.
