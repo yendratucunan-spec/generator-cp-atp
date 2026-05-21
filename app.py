@@ -1,3 +1,11 @@
+import subprocess
+import sys
+
+try:
+    from docx import Document
+except ModuleNotFoundError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "python-docx"])
+    from docx import Document
 import streamlit as st
 import urllib3
 import json
